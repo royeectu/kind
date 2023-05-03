@@ -20,3 +20,7 @@ In order to delete a cluster, run:
 ```shell
 kind delete cluster
 ```
+In case that the kubeconfig file has been deleted you can regenerate it. Run:
+```shell
+kind get kubeconfig
+```
